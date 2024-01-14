@@ -41,7 +41,7 @@ def delete_data(request,id):
         pi=User.objects.get(pk=id)
         pi.delete()
         return HttpResponseRedirect('/')
-    
+#This function will update data 
 def update_data(request,id):
     if request.method =='POST':
         pi=User.objects.get(pk=id)
