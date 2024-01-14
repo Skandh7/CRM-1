@@ -18,6 +18,7 @@ from .models import User
 #         stud = User.objects.all()
 
 #     return render(request, 'enroll/addandshow.html', {'form': fm, 'stu': stud})
+# add_show function
 def add_show(request):
     stud = User.objects.all()
 
